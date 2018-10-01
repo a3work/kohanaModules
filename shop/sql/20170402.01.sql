@@ -1,0 +1,1 @@
+ALTER TABLE `shop_goods` ADD `descr` VARCHAR(2048) NOT NULL DEFAULT '' AFTER `name`;

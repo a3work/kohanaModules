@@ -1,0 +1,1 @@
+<i class='e <?=$settings_id?>-<?=$id?>'><?=$text == '' ? '&nbsp;&nbsp;&nbsp;' : $text?></i>

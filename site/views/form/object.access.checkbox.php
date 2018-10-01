@@ -1,0 +1,1 @@
+<td><a title='<?=$header?>'><input type='checkbox' name='<?=$name?>' value='<?=$value?>'<?=$field->disabled( ) ? ' readonly' : ''?><?=$selected ? 'checked' : ''?>></a></td>

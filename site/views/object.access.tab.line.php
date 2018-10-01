@@ -1,0 +1,1 @@
+<tr><td><?=$user?></td><?=$actions?><td><?=$extra?></td></tr>

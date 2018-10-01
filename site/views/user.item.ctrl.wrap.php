@@ -1,0 +1,1 @@
+<div class='cms-item-ctrl'><?=$body?></div>

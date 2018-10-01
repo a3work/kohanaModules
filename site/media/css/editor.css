@@ -1,0 +1,28 @@
+form.editor-element-text, form.editor-element-textarea {
+	display:inline-block;
+	height:auto !important;
+	margin:0 !important;
+	padding:0 !important;
+	white-space:nowrap;
+}
+form.editor-element-text input[type="text"], form.editor-element-textarea textarea {
+	display:inline-block;
+	width:260px;
+	box-sizing:border-box;
+	border:1px solid #ccc;
+	font:inherit !important;
+}
+form.editor-element-text input[type="text"] {
+	border-right:none;
+}
+form.editor-element-text input[type="submit"], form.editor-element-textarea input[type="submit"] {
+	display:inline-block;
+	border:1px solid #555;
+	background:#555;
+	color:#fff;
+}
+form.editor-element-textarea input[type="submit"] {
+	display:block;
+	padding-left:-100%;
+}
+

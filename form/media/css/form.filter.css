@@ -1,0 +1,45 @@
+form.filter {
+	max-width:10em;
+	padding: .3em 0 0 ;
+	background:#f9f9f9;
+	border:1px dotted #b7b7b7;
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;	
+}
+form.filter .form-line {
+	margin:.3em 0 0;
+	padding:0 .5em;
+}
+form.filter .form-label {
+	display:block;
+	margin:0;
+	padding:0 .5em 0 .5em;
+	overflow:hidden;
+	float:none;
+	color:#666;
+	background:none;
+}
+form.filter .form-element {
+	display:block;
+	margin:0;
+	overflow:visible;
+	font-size:100%;
+	background:none;
+}
+form.filter input[type="text"] {
+	z-index:4;
+	
+}
+form.filter input[type="submit"] {
+	float:right;
+	margin:.3em;
+	padding:.6em .5em .2em;
+	background:#fff;
+	text-transform:uppercase;
+
+-webkit-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.1);
+-moz-box-shadow:    0px 0px 10px rgba(50, 50, 50, 0.1);
+box-shadow:         0px 0px 10px rgba(50, 50, 50, 0.1);
+}

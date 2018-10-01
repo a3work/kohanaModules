@@ -1,0 +1,28 @@
+.cart-message {
+	padding:4em 1.5em 4em 0;
+	text-align:right;
+}
+.cart-message a.cart-submit:link, .cart-message a.cart-submit:visited, .cart-message a.cart-submit:hover, .cart-message a.cart-submit:active {
+	display:inline-block;
+	font-size:130%;
+	width:auto;
+	height:auto;
+	padding:.6em .6em .8em;
+	
+	background-color:#0B3355;
+	background-image:none;
+	color:#fff;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+a.cart-del, a.cart-del:link, a.cart-del:visited, a.cart-del:hover, a.cart-del:active {
+	display:block;
+	width:20px;
+	height:20px;
+	background:url('<?=Route::url('static_files',array('filetype' => 'img','file' => 'btn-del.png'))?>') 50% 50% no-repeat;
+}
+
+

@@ -1,0 +1,1 @@
+<form name='<?=$name?>' method='<?=$method?>'<?=isset($class) ? ' class="'.$class.'"' : ''?><?=isset($enctype) ? ' enctype="'.$enctype.'"' : ''?><?=isset($target) ? " target=\"$target\"" : ''?><?=isset($action) ? " action=\"$action\"" : ''?>>

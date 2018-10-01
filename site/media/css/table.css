@@ -1,0 +1,27 @@
+tr[title^="<?=__('go to')?>"] {
+/* 	cursor:pointer; */
+}
+table.full {
+	width:100%;
+}
+tr.unread {
+	background:#FEFF9C !important;
+}
+tr.unread:hover {
+	background:#FEFFC1 !important;
+}
+tr.hl-red td:first-child {
+	border-left:5px solid #F2795B;
+}
+tr.hl-yellow td:first-child {
+	border-left:5px solid #F0E95A;
+}
+tr.hl-green td:first-child {
+	border-left:5px solid #51C939;
+}
+tr.hl-blue td:first-child {
+	border-left:5px solid #5B8AF1;
+}
+tr.hl-magenta td:first-child {
+	border-left:5px solid #EE5BF3;
+}

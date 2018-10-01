@@ -1,0 +1,1 @@
+<div id="<?=$id?>" class='cms-wr <?=implode(' ', $classes)?>'><?=$text?></div>

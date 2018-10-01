@@ -1,0 +1,47 @@
+.cms-editable {
+	display:inline-block;
+	padding:5px;
+	border:1px solid #cdcdcd;
+	background:#ededed;
+}
+.cms-editable:hover {
+	background:#e0e0e0;
+	cursor:pointer;
+}
+a .cms-editable {
+	color:#333;
+}
+.cms-editor-wrapper {
+	position:absolute;
+	display:none;
+	z-index:99;
+/* 	min-width:250px !important; */
+/* 	min-height:40px !important; */
+}
+.cms-editor-wrapper textarea{
+	display:none;
+/* 	min-width:inherit !important; */
+/* 	min-height:inherit !important; */
+}
+.cms-settings-wrapper {
+	width:820px;
+}
+.cms-settings-item span {
+	display:block;
+	width:400px;
+	padding-top:3px;
+	float:left;
+	text-align:right;
+}
+form.config-line {
+	display:block;
+	margin-left:410px;
+}
+.config-line input {
+	display:inline;
+	
+}
+.config-line input[type=text] {
+	display:inline;
+	width: 320px;
+}

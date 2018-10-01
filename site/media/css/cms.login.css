@@ -1,0 +1,11 @@
+.form-label {
+	width:100px !important;
+}
+.form-element {
+	margin-left:120px;
+}
+.cms-login {
+	width:400px;
+	margin:0 auto;
+	padding:15px
+}

@@ -1,0 +1,40 @@
+.pgn {
+	margin-bottom:15px;
+}
+
+.pgn a, .pgn a:link, .pgn a:visited, .pgn a:hover, .pgn a:active {
+	display:inline-block;
+	font-size:90%;
+	width:28px;
+	height:22px;
+	padding-top:6px;
+/* 	padding:5px 3px 0; */
+	text-align:center;
+	text-decoration:none;
+	vertical-align:middle;
+}
+.pgn a.curr, .pgn a.curr:link, .pgn a.curr:visited, .pgn a.curr:hover, .pgn a.curr:active {
+	vertical-align:middle;
+	font-size:100%;
+/* 	padding-top:5px; */
+	background:#555;
+	color:#fff;
+	-webkit-border-radius: 55px;
+	-moz-border-radius: 55px;
+	border-radius: 55px;
+}
+.pgn a.ngb, .pgn a.ngb:link, .pgn a.ngb:visited, .pgn a.ngb:hover, .pgn a.ngb:active {
+	vertical-align:middle;
+	font-size:110%;
+/* 	padding-top:5px; */
+	background:#555;
+	color:#fff;
+	-webkit-border-radius: 55px;
+	-moz-border-radius: 55px;
+	border-radius: 55px;
+}
+.pgn-total {
+	display:inline-block;
+	margin-right:40px;
+}
+

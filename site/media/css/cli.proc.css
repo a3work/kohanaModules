@@ -1,0 +1,57 @@
+.proc {
+	position:relative;
+	width:600px;
+	overflow:hidden;
+}
+.proc-data {
+	padding:.4em;
+	position:relative;
+	overflow:hidden;
+}
+.proc-data small {
+	display:block;
+	font-size:90%;
+	color:#555;
+}
+.proc-name {
+	float:left;
+	width:80%;
+}
+.proc-progress {
+	margin-left:80%;
+	text-align:right;
+	overflow:hidden;
+}
+.proc-loadbar {
+	position:relative;
+	display:none;
+	background:rgba(200,200,200,.9);
+	padding:.1em;
+	overflow:hidden;
+}
+.proc-loadbar div {
+	position:relative;
+	width:0;
+	height:.2em;
+	background:#777;
+}
+.proc-button, .proc-button:link, .proc-button:visited, .proc-button:hover, .proc-button:active {
+	display:inline-block;
+	padding:.4em;
+	text-decoration:none;
+	float:right;
+	margin:.3em;
+	color:#343333;
+	margin-top:.8em;
+	padding:.6em .5em .2em;
+	background:#fff;
+	font-size:80%;
+	text-transform:uppercase;
+	border:1px solid #CFCFCF;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.1);
+	-moz-box-shadow:    0px 0px 10px rgba(50, 50, 50, 0.1);
+	box-shadow:         0px 0px 10px rgba(50, 50, 50, 0.1);
+}

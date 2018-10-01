@@ -1,0 +1,1 @@
+<form class='cms-input' name='<?=$name?>' method='<?=$method?>' action='<?=$action?>' enctype='<?=$enctype?>'><?=$body['data']['html']?><?=$body['submit']['html']?><?=$body['activate']['html']?></form>

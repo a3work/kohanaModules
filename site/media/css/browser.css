@@ -1,0 +1,130 @@
+/** FOLDERS VIEW **/
+.main-folder li {
+	width: 80px;
+	min-height: 100px;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	padding:4px;
+/* 	margin-top:12px; */
+	zoom: 1;
+	*display: inline;
+	_height: 250px;
+	list-style-type:none;
+	text-align:left;
+	font-size:90%;
+	line-height:1.2em;
+}
+.main-folder li a, .main-folder li a:link, .main-folder li a:visited, .main-folder li a:hover, .main-folder li a:active {
+	position:relative;
+	display:block;
+	text-decoration:none;
+	color:#343333;
+	font-size:90%;
+	padding:0 5px;
+	text-align:center;
+	overflow:hidden;
+}
+.main-folder li:before {
+	content:'';
+}
+.main-folder .folder, .main-folder .file {
+	position:relative;
+	display:-moz-inline-stack;
+	display:inline-block;
+	margin-top:-.5em;
+	padding-top:-.2em;
+}
+.main-folder .folder a:before, .main-folder .file a:before {
+	position:relative;
+	display:block;
+    vertical-align: middle;/*	vertical-align:top;*/
+	font-family:entypo;
+	font-size:500%;
+	line-height:1em;
+	padding-bottom:.1em;
+	text-align:center;
+}
+.main-folder .folder a:before {
+	content:"📁";
+/* 	line-height:1em; */
+	color:#999;
+}
+.main-folder .file a:before {
+/* 	line-height:1em; */
+	content:"📰";
+}
+
+
+/** LIST VIEW **/
+.main-list {
+	-webkit-column-count: 3;
+/*	-moz-column-count: 3;*/
+	column-count: 3;
+/*	-webkit-column-gap: 2em;
+	-moz-column-gap: 2em;*/
+	column-gap: 2em;
+}
+.main-list li {
+	position:relative;
+	width:170px;
+	list-style-type:none;
+	text-align:left;
+	font-size:90%;
+	line-height:1.2em;
+}
+.main-list li a, .main-list li a:link, .main-list li a:visited, .main-list li a:hover, .main-list li a:active {
+	position:relative;
+	display:inline-block;
+	width:150px;
+	margin-top:-2px;
+	padding:12px 5px 2px;
+	text-decoration:none;
+	color:#343333;
+	font-size:90%;
+	text-align:left;
+	vertical-align:middle;
+    text-overflow: ellipsis;
+     -o-text-overflow: ellipsis;
+     -moz-binding: url( 'bindings.xml#ellipsis' );
+     white-space: nowrap;
+     overflow: hidden;
+}
+.main-list li:before {
+	content:'';
+}
+.main-list .folder, .main-list .file {
+/*	position:relative;
+	display:-moz-inline-stack;
+	display:inline-block;*/
+}
+.main-list .folder a:before, .main-list .file a:before {
+	position:relative;
+	display:inline-block;
+	width:30px;
+	height:25px;
+	font-family:entypo;
+	font-size:40px;
+	margin:-12px 0 0;
+	text-align:center;
+	vertical-align:middle;
+	opacity:.8;
+	filter:alpha('opacity=80');
+}
+.main-list .folder a:before {
+	content:"📁";
+}
+.main-list .file a:before {
+	content:"📰";
+}
+
+
+
+
+
+
+
+
+
+
+
